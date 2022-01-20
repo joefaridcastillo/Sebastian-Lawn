@@ -331,6 +331,7 @@ header .navbar {
 
 /* Banner Style */
 
+
 .img-fill{
   width: 100%;
   display: block;
@@ -381,7 +382,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-color: #fff;
 }
 
 .Modern-Slider .item-2 .img-fill {
@@ -434,13 +435,16 @@ ul.slick-dots {
   display: none!important;
 }
 
-.Modern-Slider .text-content {
-	text-align: left;
-  	width: 75%;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+
+.text-content-2{
+	position: absolute;
+	top: 20%;
+	left: 60%;
+	transform: translate(-80%, -20%);
+	width: 600px;
+}
+.text-content-2 p{
+	margin-top: -90px;
 }
 
 .Modern-Slider .item h6 {
