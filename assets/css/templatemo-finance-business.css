@@ -1171,6 +1171,18 @@ footer .contact-form button.filled-button:hover {
 
 /* Responsive Style */
 @media (max-width: 768px) {
+
+	.navbar .navbar-brand h2 {
+		display: none;
+	}
+
+	.text-content-2{
+		position: absolute;
+		top: 20%;
+		left: 45%;
+		transform: translate(-220%, -10%);
+		width: 100px;
+	}
 	.sub-header {
 		display: none;
 	}
