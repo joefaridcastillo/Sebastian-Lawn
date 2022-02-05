@@ -1170,6 +1170,7 @@ footer .contact-form button.filled-button:hover {
 
 
 /* Responsive Style */
+
 @media (max-width: 768px) {
 
 	.navbar .navbar-brand h2 {
@@ -1253,18 +1254,7 @@ footer .contact-form button.filled-button:hover {
 
 @media (max-width: 992px) {
 
-	.text-content-2{
-		position: absolute;
-		top: 20%;
-		left: 100%;
-		transform: translate(-100%, -10%);
-		width: 800px;
-	}
-	.navbar .navbar-brand h2 {
-		margin-top: 40px;
-		font-size: 30px;
-		text-align: center;
-	}
+	
 	.navbar .navbar-brand {
 		position: absolute;
 		left: 30px;
